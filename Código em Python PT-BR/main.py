@@ -47,7 +47,7 @@ class MainWindow(QMainWindow):
        self.url_bar.setText(q.toString())
 
 app = QApplication(sys.argv)
-QApplication.setApplicationName('Agner Browser')
+QApplication.setApplicationName('Garbin Browser')
 window = MainWindow()
 app.exec_()
 
